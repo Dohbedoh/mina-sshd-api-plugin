@@ -83,5 +83,11 @@
             <artifactId>ssh-credentials</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- TODO: Remove once mina-sshd is upgraded to 2.15.0 -->
+        <dependency>
+          <groupId>io.jenkins.plugins</groupId>
+          <artifactId>eddsa-api</artifactId>
+          <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
